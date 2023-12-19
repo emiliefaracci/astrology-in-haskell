@@ -35,7 +35,9 @@ WorldCityLocations: World City Locations Database which we cloned is an open sou
                     parses it into a CityRecord custom type to be used in the API call. We cloned this repo from                                                 https://github.com/bahar/WorldCityLocations
 
 
-**Instructions on interacting with the project: ** We made a cabal file with costar executable. Simply type cabal run 
+**Instructions on interacting with the project: ** 
+
+We made a cabal file with costar executable. Simply type cabal run 
                                               and follow the instructions on the screen! The CSV file with current 
                                               users will be updated locally while playing. Users will have to be added 
                                               in a seperate run-through, before compatibility can be checked.
