@@ -1,0 +1,20 @@
+cabal-version:      2.4
+name:               costar
+version:            0.1.0.0
+
+executable costar
+  hs-source-dirs:   .
+  main-is:          Costar.hs
+  other-modules:    Compatibility, Parser, Database
+  ghc-options:      -main-is Costar
+  build-depends:    base, 
+                    aeson,
+                    http-client, 
+                    http-conduit, 
+                    http-client-tls, 
+                    http-types, 
+                    bytestring,
+                    text,
+                    cassava,
+                    vector
+  default-language: GHC2021
