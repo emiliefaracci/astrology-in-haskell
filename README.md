@@ -10,7 +10,7 @@ Most importantly (to us), Co-Star boasts their use of the Haskell language, and 
 “https://www.costarastrology.com/why-haskell”. Although Co-Star only has two backend engineers, they provide astrology to approx 25% of 
 young women in the US. They say it’s because of Haskell. So why not give it a go? 
 
-Elizabeth Li and I recreated a user interface with the main functionalities of Co-Star, incorporating a user database to keep track of users. Functionalities 
+My partner Elizabeth Li and I recreated a user interface with the main functionalities of Co-Star, incorporating a user database to keep track of users. Functionalities 
 include adding your user and seeing your chart (Sun sign, Moon sign, Rising sign), getting extra info about your chart, and comparing compatability 
 with other users. 
 
