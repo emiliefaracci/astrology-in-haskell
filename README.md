@@ -2,8 +2,7 @@
 
 Hi and welcome to our project, Co-Star Haskell Copy! 
 
-**Project Description: 
-**
+**Project Description:**
 
 The astrology app, Co-Star, enables users to understand their birth chart, connect with friends, and discover where their compatibility lies. 
 Most importantly (to us), Co-Star boasts their use of the Haskell language, and even have a whole page on their website dedicated to it: 
@@ -14,8 +13,7 @@ My partner Elizabeth Li and I recreated a user interface with the main functiona
 include adding your user and seeing your chart (Sun sign, Moon sign, Rising sign), getting extra info about your chart, and comparing compatability 
 with other users. 
 
-**High Level Overview of Code Base: 
-**
+**High Level Overview of Code Base:**
 
 Costar.hs : This file deals with the I/O with user for the interface through its main. It references Compatibility, 
             Parser, and Database modules to perform outside data storage, computation and parsing.
@@ -35,7 +33,7 @@ WorldCityLocations: World City Locations Database which we cloned is an open sou
                     parses it into a CityRecord custom type to be used in the API call. We cloned this repo from                                                 https://github.com/bahar/WorldCityLocations
 
 
-**Instructions on interacting with the project: ** 
+**Instructions on interacting with the project:** 
 
 We made a cabal file with costar executable. Simply type cabal run 
                                               and follow the instructions on the screen! The CSV file with current 
